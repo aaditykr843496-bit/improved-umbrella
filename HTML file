@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aadity Kumar | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="bg-animation"></div>
+<div class="cursor"></div>
+
+<!--================ NAVBAR ================-->
+
+<nav>
+
+    <div class="logo">
+        <span>AK</span>
+    </div>
+
+    <ul>
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#portfolio">Portfolio</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<!--================ SIDE GLASS BAR ================-->
+
+<div class="glass-sidebar">
+
+    <h3>Quick Menu</h3>
+
+    <a href="#home">
+        <i class="ri-home-5-fill"></i>
+        Home
+    </a>
+
+    <a href="#about">
+        <i class="ri-user-fill"></i>
+        About
+    </a>
+
+    <a href="#services">
+        <i class="ri-code-box-fill"></i>
+        Services
+    </a>
+
+    <a href="#portfolio">
+        <i class="ri-gallery-fill"></i>
+        Portfolio
+    </a>
+
+    <a href="#contact">
+        <i class="ri-mail-fill"></i>
+        Contact
+    </a>
+
+</div>
+
+<!--================ HERO SECTION ================-->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Aadity Kumar</h1>
+
+        <h2>THIS IS MY PORTFOLIO WEBSITE</h2>
+
+        <p>
+
+            Welcome to my futuristic portfolio website.
+            I create websites, applications, UI designs,
+            animations and creative digital experiences.
+
+        </p>
+
+        <div class="hero-btn">
+
+            <a href="#portfolio" class="btn">
+                View Work
+            </a>
+
+            <a href="#contact" class="btn btn2">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ ABOUT ================-->
+
+<section id="about" class="section">
+
+    <div class="glass-box">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            I am a passionate Web Developer,
+            UI Designer and Content Creator.
+            I enjoy creating premium futuristic websites
+            with beautiful animations and modern user experience.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!--================ SERVICES ================-->
+
+<section id="services" class="section">
+
+    <h2 class="title">My Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <i class="ri-code-s-slash-line"></i>
+
+            <h3>Web Development</h3>
+
+            <p>
+
+                Responsive and professional websites using
+                HTML, CSS and JavaScript.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="ri-brush-fill"></i>
+
+            <h3>UI Design</h3>
+
+            <p>
+
+                Modern Glassmorphism,
+                Futuristic and Premium UI Design.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="ri-movie-fill"></i>
+
+            <h3>Video Editing</h3>
+
+            <p>
+
+                Cinematic edits,
+                Motion Graphics and After Effects.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ PORTFOLIO ================-->
+
+<section id="portfolio" class="section">
+
+    <h2 class="title">Latest Projects</h2>
+
+    <div class="portfolio-grid">
+
+        <div class="project">
+
+            <h3>Galaxy Portfolio</h3>
+
+            <p>
+
+                Premium futuristic animated website.
+
+            </p>
+
+        </div>
+
+        <div class="project">
+
+            <h3>Notes Application</h3>
+
+            <p>
+
+                Chrome based notes app with save feature.
+
+            </p>
+
+        </div>
+
+        <div class="project">
+
+            <h3>Typing Website</h3>
+
+            <p>
+
+                Typing speed tester with live WPM.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ CONTACT ================-->
+
+<section id="contact" class="section">
+
+    <div class="glass-box">
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Email"
+                required
+            >
+
+            <textarea
+                rows="6"
+                placeholder="Message"
+            ></textarea>
+
+            <button class="btn">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Aadity Kumar | All Rights Reserved
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
